@@ -1,0 +1,219 @@
+header{
+	width: 1000px;
+	height: 90px;
+	margin: 0 auto;
+	clear: both:;
+	overflow: hidden;
+}
+.logo{
+    overflow: hidden;
+}
+.logo h1 {
+	background: url(../images/login/logo-ico.jpg) no-repeat; 
+	width:121px;
+	height:75px;
+	margin: 15px 0 0 5px;
+}
+.logo h1 a{
+	width:100%;
+	height:100%;
+	display: block;
+}
+.logo h2 {
+	background: url(../images/login/logoname.jpg) no-repeat; 
+	width:164px;
+	height:46px;
+	margin: 34px 0 0 19px;
+}
+/*-----------------main--------------------*/
+main{
+	width:100%;
+	height:480px;
+	background:url(../images/login/150302094599390.jpg) no-repeat;
+	position:relative;
+}
+.loginform{
+	position:absolute;
+	top:30px;
+	right:218px;
+	width:276px;
+	height:336px;
+	box-shadow: 0 0 0 2px #ddd;
+	padding: 40px 35px 20px 40px;
+	background:#fff;
+}
+.loginform h3{
+	width: 89px;
+    height: 18px;
+    font-size: 20px;
+    color: #333;
+    font-weight:100;
+
+}
+.loginform .dongtai {
+	position:relative;
+}
+.loginform .dongtai span a{
+     color: #666;
+     font-size: 12px;  
+}
+.loginform .dongtai span::before{
+	content: "";
+    width: 12px;
+    height: 13px;
+    position: absolute;
+    top: 7px;
+    left: -16px;
+    background: url(../images/login/inputbg.png) no-repeat -23px -51px;
+}
+.wanVip{
+	height:18px;
+}
+.loginBox{
+	margin-top: 20px;
+}
+.formBox{
+	overflow:hidden;
+	position:relative;
+	
+}
+.formBox>input{
+	width:238px;
+	height:38px;
+	padding-left: 36px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    display: block;
+    line-height: 38px;
+    color: #999;
+    font-size: 14px;
+}
+.formBox>span{
+	display: block;
+    width: 16px;
+    height: 15px;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    background:url(../images/login/inputbg.png) no-repeat;
+    
+}
+.formBox span:nth-of-type(2){
+	width:12px;
+	height:15px;
+	background-position:-2px -31px;
+	top:73px;
+	left:12px; 
+}
+.formBox label{
+    margin-right: 16px;
+    color: #6a6a6a;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-size:12px;
+    
+  }
+.formBox label input{
+	position: relative;
+	top:2px;
+} 
+.formBox .loginbtn{
+	width:276px;
+	text-align: center;
+	padding-left:0;
+	background: #ce0000;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.formBox .registe p a{
+	font-size:12px;
+	color:#999;
+}
+.formBox .links{
+	width: 100%;
+    height: 29px;
+    line-height: 29px;
+    color: #6a6a6a;
+    font-size:12px;
+    float:left;
+    margin-top: 20px;
+    
+}
+.formBox .cooperation{
+	overflow: hidden;
+	width:100%;
+}
+.formBox .cooperation a{
+      font-size:12px;
+     position:relative;
+     margin-top: 10px;
+    padding: 0 0px 0 20px;
+    color: #005aa0;
+}
+.formBox .cooperation a span{
+	padding-left:10px;
+}
+.formBox .cooperation a::before{
+	background: url(../images/login/lableimg.gif) no-repeat;
+	width:16px;
+	height:20px;
+	content: "";
+	top:-2px;
+	left:3px;
+	position:absolute;
+}
+.formBox .cooperation a:nth-child(1)::before{
+	background-position: 0 -126px;
+}
+.formBox .cooperation a:nth-child(2)::before{
+	background-position: 0 -259px;
+}
+.formBox .cooperation a:nth-child(3)::before{
+	background-position: 0 -393px;
+}
+.formBox .cooperation a:nth-child(4)::before{
+	background-position: 0 -459px;
+}
+/*-------footer-------------*/
+footer .footer-z{
+	margin-top:30px;
+}
+footer .footer-z .p1{
+	height:12px;
+	padding:4px 0;
+}
+footer .footer-z .p1 a{
+	font-size:12px;
+	color:#333;
+}
+footer .footer-z .p1 a span{
+	color:#870087;
+	padding-left: 4px;
+}
+footer .footer-z .p2{
+	margin-top:6px;
+	line-height:22px;
+	font-size:12px;
+	color:#999;
+}
+footer .footer-z .p3{
+	line-height:22px;
+	font-size:12px;
+	color:#999;
+}
+footer .footer-z .p4{
+	margin-top: 10px;
+
+}
+footer .footer-z .p4 a{
+	padding:0 4px;
+}
+footer .footer-y{
+	margin-top:40px;
+	margin-left: 292px;
+}
+footer .footer-y p{
+	padding-right: 30px;
+}
+

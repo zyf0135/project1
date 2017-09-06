@@ -1,0 +1,491 @@
+
+
+/*---------main-------*/
+.main{
+	width:100%;
+	position:relative;
+	background-color: #fafafa;
+	height:auto;
+	
+	
+    
+}
+.main{
+	margin: 0 auto;
+    background-image: url(../images/list/main-bg.png);
+    background-repeat: repeat-x;
+    
+}
+.main-bar{
+   width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 20px 0 18px 0;
+    color: #383737;
+    overflow: hidden;
+}
+.main-bar h3{
+	color: #383737;
+}
+.main-bar a{
+	color: #383737;
+}
+.main-bar p{
+	color: #383737;
+}
+.aside{
+	width: 210px;
+    float: left;
+    display: inline;
+    height: auto;
+    overflow: hidden;
+}
+.aside-left{
+	width: 100%;
+    height: auto;
+    border: 1px solid #fff;
+    color: #666;
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.allWatch .watch{
+	padding: 10px 10px 15px 26px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.allWatch ul{
+	background:#fff !important;
+}
+
+.allWatch h3{
+	    font-size: 14px;
+	    height: 24px;
+	    line-height: 24px;
+	    background-color: #f7f7f7;
+	    border-bottom: 1px solid #dcdcdc;
+	    padding: 0 8px;
+	   
+ }
+ .watch a{
+ 	color:#666;
+ }
+.watch :nth-child(1) a{
+	font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #ae0e16;
+}
+#Offical a{
+	color:#666;
+	text-decoration: none;
+	font-size:12px;
+	font-weight:100;
+}
+.gifts li{
+	padding: 10px 10px 15px 26px;
+}
+.gifts li a{
+	color:#666;
+}
+.gifts li .p1{
+	margin-bottom: 6px;
+}
+.gifts li .p1 a{
+	font-size:14px;
+	font-weight:bold;
+}
+.gifts li .p2 a{
+	padding-right: 15px;
+}
+.aside-right{
+	width:970px;
+	border: 1px solid #cdcdcd;
+    padding: 1px;
+    height: auto;
+    color: #666;
+    position: relative;
+    background-color:#fff !important;
+    margin-bottom: 25px;
+   
+}
+..brandName:hover li{
+	background: #fff !important;
+}
+.aside-right .find{
+	padding: 5px 46px 5px 12px;
+    min-height: 22px;
+    line-height: 22px;
+    position: relative;
+    background-color: #f7f7f7;
+}
+.aside-right .find :nth-child(2){
+	color: #997239;
+}
+.brand{
+	padding: 7px 12px;
+    line-height: 18px;
+    position: relative;
+    height: auto;
+    border-bottom: 1px dashed #ddd;
+}
+.brand dt{
+	left: 12px;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 60px;
+    font-weight: bold;
+    line-height: 26px;
+    text-align: left;
+    color: #333;
+}
+.brandName{
+	padding-left: 60px;
+	position:relative;
+}
+.brandName .ls1{
+	padding-top: 4px;
+	height:21px;
+}
+.brandName .ls1 a{
+	margin-right:45px;
+	color: #666;
+	display:block;
+	float:left;
+}
+.brandName .ls1 a:hover{
+	background:#b32424;
+	color: #fff;
+}
+.brandName .ls1 .ls1-title{
+	width:50px;
+	color:#999;
+	height:21px;
+	display:inline-block;
+	float:left;
+}
+
+.brand:nth-child(5){
+	border-bottom: 0;
+}
+.brand:nth-child(8){
+	border-bottom: 0;
+}
+.aside-right .more{
+	width: 280px;
+    height: 24px;
+    line-height: 20px;
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    margin-left: -140px;
+    text-align: center;
+
+}
+.aside-right .more .options{
+	width: auto;
+    display: inline-block;
+    padding: 0 15px;
+    height: 24px;
+    background-color: #fff;
+    border: 1px solid #cdcdcd;
+    border-top-color: #fff;
+    cursor: pointer;
+    color: #999;
+}
+.aside-right .more .options1{
+	width: auto;
+    display: inline-block;
+    padding: 0 15px;
+    height: 24px;
+    background-color: #fff;
+    border: 1px solid #cdcdcd;
+    border-top-color: #fff;
+    cursor: pointer;
+    color: #999;
+    position:relative;
+    top:0px;
+    display:none;
+}
+
+
+
+
+
+
+.aside-right .more .options .arrow{
+	background:url(../images/list/icon2.png) no-repeat -30px -24px;
+	width: 15px;
+    height: 10px;
+    display: inline-block;
+    vertical-align:middle;
+    
+}
+.aside-right .more .options1 .arrow1{
+	background:url(../images/list/icon2.png) no-repeat -4px -24px;
+	width: 15px;
+    height: 10px;
+    display: inline-block;
+    vertical-align:middle;
+    
+}
+
+/*------热销推荐--------*/
+.recommend{
+	width: 100%;
+    margin-bottom: 25px;
+    overflow: hidden;
+    color:#fff;
+}
+.recommend h3{
+	padding: 0 3px;
+	color: #b01330;
+    font-weight: bold;
+    padding: 0 3px;;
+}
+.recommend  .hot_ul{
+	padding: 0 10px;
+}
+.recommend  .hot_ul li{
+	border-bottom: 1px dashed #ccc;
+    padding: 15px 8px;
+}
+.recommend  .hot_ul li a{
+	display:block;
+	text-align: center;
+}
+.recommend  .hot_ul li a p{
+	text-align: left;
+    margin: 12px auto 8px auto;
+    height: 36px;
+    overflow: hidden;
+    color:#333;
+}
+.price .s_price{
+	font-size: 14px;
+    color: #b01330;
+}
+.price .sale{
+	display: inline-block;
+    float: right;
+    font-style: normal;
+    color: #787878;
+    font-size: 14px;
+    
+    
+}
+.recommend .hot_ul li.lis{
+	border-bottom:0;
+}
+/*banner=============*/
+section{
+	width:970px;
+	height:100px;
+	
+}
+section .little_banner{
+	display: block;
+    width: 970px;
+    height: 120px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.little-pic{
+	width:210px;
+	height:400px;
+}
+.goodslist{
+	background-color: #fff;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 25px;
+	
+}
+.goods ul{
+	padding-left: 15px;
+}
+.goods ul li{
+	float: left;
+    display: inline;
+    border:1px solid transparent;
+
+}
+.goods ul li dl{
+	position: relative;
+    width: 230px;
+    height: 395px;
+    border: 3px solid #fff;
+    margin-top: 20px;
+    box-sizing: content-box;
+}
+.goods ul li dl dd{
+	padding: 10px 0;
+    height: 270px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.goods ul li dl dd img{
+	width: 240px;
+    height: 240px;
+    position: relative;
+    margin-left: -5px;
+    display: block;
+    background: red;
+}
+.goods ul li dl dt{
+	padding-bottom: 20px;
+    margin: 0 12px;
+    position: relative;
+    line-height: 18px;
+}
+.goods ul li dl .lover{
+	display: none;
+	background: url(../images/list/icon2.png) no-repeat 0px -61px;
+	position: absolute;
+    top: -28px;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+.goods ul li dl .quartz{
+	display: block;
+	position: absolute;
+    top: -28px;
+    width: 100%;
+    height: 20px;
+    background: #fff;
+    text-align: center;
+}
+.goods ul li dl .quartz a{
+	display: block;
+    line-height: 20px;
+    width: auto;
+    padding: 0 2px;
+    float: left;
+    background-color: #c1c1c1;
+    color: #fff;
+    margin-right: 3px;
+}
+.goods ul li dl dt .Perles{
+	margin-bottom: 8px;
+    height: 30px;
+    
+}
+
+.goods ul li dl dt .Perles a{
+	line-height: 16px;
+	color:#333;
+}
+.goods ul li dl dt .count{
+	margin-bottom: 13px;
+}
+.goods ul li dl dt .count .sales{
+	float: right;
+    color: #999;
+}
+
+.goods ul li dl dt .count .rmb{
+	color: #323232;
+    font-size: 12px;
+    font-family: Tahoma,Geneva,sans-serif;
+    float:left;
+}
+.goods ul li dl dt .count .discount{
+	    color: #ce0000!important;
+}
+.goods ul li dl dt .ask{
+	position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+    display:none;
+    top:70px;
+}
+.goods ul li dl dt .ask .lowest{
+	text-align: left;
+	float:left;
+}
+.goods ul li dl dt .ask .lowest em{
+	background:url(../images/list/kefu.gif) no-repeat 0 0;
+	width:18px;
+	height:18px;
+	display: inline-block;
+	background-color: #999;
+    vertical-align: top;
+    margin-left: 3px;
+}
+.goods ul li dl dt .ask .compare{
+	float:right;
+	text-align:right;
+}
+.goods ul li dl dt .ask .compare input{
+	margin-left: 5px;
+    position: relative;
+    top: 2px;
+    width:13px;
+    display:inline-block;
+    height:13px;
+}
+.goods ul li dl dt .ask a{
+	color:#b32424;
+}
+/*.pink{
+	width:100%;
+	height:100px;
+	background:pink;
+}*/
+.green{
+	width: 100%;
+	height:100px;
+	background:green;
+}
+.menu_two{
+	display:none;
+}
+.watchmate .Bask{
+	width: 172px!important;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #CCCCCC;
+    position:relative;
+    text-align:center;
+    padding-left: 14px;
+    padding-top: 10px;
+    
+    
+}
+.watchmate :nth-chid(5){
+    border-bottom: 0;
+}
+.watchmate .Bask a{
+	display:block;
+	width:172px;
+	height:150px;
+}
+.watchmate .Bask a img{
+	width:172px;
+	height:150px;
+}
+.watchmate .Bask p{
+	width:172px;
+	background:#fff;
+	color:#333;
+	height:20px;
+}
+.watchmate .Bask a p.name{
+    width:172px;
+    background:#333333;
+    color:#fff;
+    height:20px;
+    position: absolute;
+    bottom:30px;
+    left:14px;
+    opacity: 0.5;
+}

@@ -1,0 +1,168 @@
+body{
+    background:#fafafa !important;
+}
+header{
+	width:840px;
+	height:115px;
+	margin:0 auto;
+	/*background:pink;*/
+	position: relative;
+}
+#logo{
+	position:absolute;
+	top:40px;
+	left:0px;
+}
+#logo_z{
+	width:112px;
+	height:75px;
+	display:block;
+	background: url(../images/zhuce/logo.png) no-repeat 0px -3px;
+	float:left;
+}
+#logo_r{
+	float:left;
+	margin-left: 18px;
+	width:182px;
+	height:
+}
+/*main*/
+main{
+	width:840px;
+	border:1px solid #f0f0f0;
+	background:#fff;
+	margin:40px auto;
+	height:577px;
+}
+main h2{
+	padding-top:50px;
+	text-align:center;
+	font-size: 28px;
+    color: #000;
+    padding-bottom: 30px;
+    font-weight: 100;
+}
+main p{
+	height:40px;
+	position:relative;
+	margin:15px auto 0;
+}
+main .reg{
+	width:338px;
+	height:38px;
+	line-height: 38px;
+    border: 1px solid #e8e8e8;
+    font-size: 12px;
+    background-color: transparent;
+    font-family: "新宋体"!important;
+    padding-left: 35px;
+    display:block;
+    margin:0 auto;
+}
+#msg{
+	width:232px;
+	height:38px;
+	line-height: 38px;
+    border: 1px solid #e8e8e8;
+    font-size: 12px;
+    background-color: transparent;
+    font-family: "新宋体"!important;
+    padding-left: 35px;
+    display:block;
+   left: 232px;
+   position: absolute;
+}
+#send{
+	width:96px;
+	height:40px;
+	background:#fff;
+	border:1px solid #E8E8E8;
+	position:absolute;
+	left:511px;
+	cursor: pointer;
+}
+main form span{
+	width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 13px;
+    left:242px;
+    
+    display: block;
+    background:url(../images/zhuce/login_ico.png) no-repeat;
+}
+#phone_icon{
+	background-position: -30px -161px;
+}
+#key_icon{
+	background-position: 0px -198px;
+}
+#msg_icon{
+	background-position:-45px -161px;
+}
+#pass_icon{
+	background-position:-15px -160px;
+}
+#pass1_icon{
+	background-position:-15px -160px;
+}
+#regist{
+	margin:35px auto 15px;
+	width: 340px;
+    height: 38px;
+    font-size: 14px;
+    background: #b32424;
+    color: #fff;
+    border: 0;
+    border-radius: 2px;
+    display: block;
+    cursor: pointer;
+    
+}
+#xieyi{
+	font-size: 12px;
+    color: #999;
+    text-align: center;
+    padding-bottom: 20px;
+    
+}
+#xieyi a{
+	color: #000;
+	
+	
+}
+footer p{
+	text-align: center;
+	font-size:12px;
+	line-height: 20px;
+}
+footer .copyright{
+	color:#999;
+}
+#links{
+	padding:10px 0 20px;
+	text-align: center;
+}
+/*#phone{
+	
+}*/
+.judge,.judge1,.judge2{
+	width:200px;
+	height:38px;
+	position:absolute;
+	top:0;
+	left:610px;
+	line-height: 38px;
+	background:0;
+	display:none;
+	color:#B20000;
+}
+#zhuce_code{
+	width:100px;
+	height:41px;
+	/*background:pink;*/
+	position: absolute;
+	top:0;
+	left:506px;
+	background:0;
+}
